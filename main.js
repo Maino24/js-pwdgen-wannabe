@@ -1,6 +1,6 @@
-let nome = prompt(`il tuo nome`)
-let cognome = prompt(`il tuo cognome`)
-let colorePreferito = prompt(`il tuo colore preferito`)
+let nome = prompt(`inserisci il tuo nome`)
+let cognome = prompt(`inserisci il tuo cognome`)
+let colorePreferito = prompt(`inserisci il tuo colore preferito`)
 
 console.log(nome)
 console.log(cognome)
