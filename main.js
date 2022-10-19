@@ -1,13 +1,13 @@
-let nome = prompt(`inserisci il tuo nome`)
-let cognome = prompt(`inserisci il tuo cognome`)
-let colorePreferito = prompt(`inserisci il tuo colore preferito`)
+let name = prompt(`inserisci il tuo nome`)
+let surname = prompt(`inserisci il tuo cognome`)
+let color = prompt(`inserisci il tuo colore preferito`)
 
-console.log(nome)
-console.log(cognome)
-console.log(colorePreferito)
+console.log(name)
+console.log(surname)
+console.log(color)
 
-const numero = `24`
+const number = `24`
 
-console.log(numero)
+console.log(number)
 
-document.getElementById(`idPassword`).innerHTML = `la tua password insicurissima è: ${nome + cognome + colorePreferito + numero}`
+document.getElementById(`idPassword`).innerHTML = `la tua password insicurissima è: ${name + surname + color + number}`
